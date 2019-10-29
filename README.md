@@ -1,10 +1,9 @@
-"# PHP-Aula08-ex01" 
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-10-28 seg 18:46 -->
+<!-- 2019-10-29 ter 16:07 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>&lrm;</title>
@@ -233,20 +232,20 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgbe4be66">1. Upload de imagem</a>
+<li><a href="#org1ac3573">1. Upload de imagem</a>
 <ul>
-<li><a href="#orgd32c721">1.1. ExercÌcio 1</a></li>
+<li><a href="#org1826149">1.1. Exerc√≠cio 1</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgbe4be66" class="outline-2">
-<h2 id="orgbe4be66"><span class="section-number-2">1</span> Upload de imagem</h2>
+<div id="outline-container-org1ac3573" class="outline-2">
+<h2 id="org1ac3573"><span class="section-number-2">1</span> Upload de imagem</h2>
 <div class="outline-text-2" id="text-1">
 <p>
-Para enviar um arquivo de imagem o formul·rio deve ser como o seguinte:
+Para enviar um arquivo de imagem o formul√°rio deve ser como o seguinte:
 </p>
 
 <pre class="example">
@@ -258,17 +257,17 @@ Para enviar um arquivo de imagem o formul·rio deve ser como o seguinte:
 </pre>
 
 <p>
-O mÈtodo de envio deve ser <b>post</b>.
-Deve conter o atributo <b>enctype="multipart/form-data"</b> que especifica o tipo do conte˙do submetido.
+O m√©todo de envio deve ser <b>post</b>.
+Deve conter o atributo <b>enctype="multipart/form-data"</b> que especifica o tipo do conte√∫do submetido.
 </p>
 
 <p>
-A p·gina que recebe os dados deve fazer o seguinte:
+A p√°gina que recebe os dados deve fazer o seguinte:
 </p>
 
 <ol class="org-ol">
 <li>Ajustar o destino do arquivo.</li>
-<li>Usar a funÁ„o move_uploaded_file() para copiar o arquivo da pasta tempor·ria para a pasta desejada.</li>
+<li>Usar a fun√ß√£o move_uploaded_file() para copiar o arquivo da pasta tempor√°ria para a pasta desejada.</li>
 </ol>
 
 <p>
@@ -289,27 +288,18 @@ if (move_uploaded_file($_FILES["arquivo"]["tmp_name"], $destino)) {
 </pre>
 </div>
 
-<div id="outline-container-orgd32c721" class="outline-3">
-<h3 id="orgd32c721"><span class="section-number-3">1.1</span> ExercÌcio 1</h3>
+<div id="outline-container-org1826149" class="outline-3">
+<h3 id="org1826149"><span class="section-number-3">1.1</span> Exerc√≠cio 1</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
-Crie uma p·gina que recebe um arquivo de imagem e salva na pasta img incluindo a data no formato ANOMESDIAHORAMINUTO no comeco do nome do arquivo.
+Altere o c√≥digo da p√°gina recebe.php para enviar para outro diret√≥rio com nome diferente de <b>img</b>.
 </p>
-
-<p>
-<b>Exemplo</b>: Usu·rio envia foto.jpg ‡s 18:45 de 17/10/2019, a imagem fica na pasta img com nome 201910171845foto.jpg.
-</p>
-
-
-<pre class="example">
-
-</pre>
 </div>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2019-10-28 seg 18:46</p>
+<p class="date">Created: 2019-10-29 ter 16:07</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
